@@ -1,0 +1,18 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[submodule]
+	active = .
+[remote "origin"]
+	url = https://github.com/ciencia-de-los-datos/taller-presencial-04-limpieza-de-datos-ngram-EmCorreaM.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[lfs]
+	repositoryformatversion = 0
+[remote "upstream"]
+	url = https://github.com/jdvelasq/PRE_limpieza_de_datos_ngram.git
+	fetch = +refs/heads/*:refs/remotes/upstream/*
